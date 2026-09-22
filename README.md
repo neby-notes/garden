@@ -7,13 +7,13 @@
 
 Repositorio público que contiene exclusivamente el contenido aprobado para publicación.
 
-Su contenido se genera automáticamente desde el repositorio `knowledge`.
+Su contenido se genera automáticamente desde el repositorio privado de conocimiento.
 
 ***ENG:***
 
 Public repository containing only content approved for publication.
 
-Its content is automatically generated from the `knowledge` repository.
+Its content is automatically generated from the private knowledge repository.
 
 ---
 ---
@@ -34,7 +34,7 @@ This repository acts as a public layer between the private knowledge base and ex
 # Origen del contenido / Content Source
 
 ```text
-Knowledge
+Private Repository
     ↓
 GitHub Action
     ↓
@@ -43,11 +43,11 @@ Garden
 
 ***ESP:***
 
-Todo el contenido procede del repositorio privado `knowledge`.
+Todo el contenido procede del repositorio privado de conocimiento knowledge.
 
 ***ENG:***
 
-All content originates from the private `knowledge` repository.
+All content originates from the private knowledge repository.
 
 ---
 ---
@@ -61,11 +61,11 @@ assets/
 
 ***ESP:***
 
-La estructura pública puede diferir de la estructura utilizada internamente en `knowledge`.
+La estructura pública hereda directamente de la estructura utilizada internamente en el repositorio privado
 
 ***ENG:***
 
-The public structure may differ from the structure used internally in `knowledge`.
+The public structure directly mirrors the structure used internally in the private repository.
 
 ---
 ---
@@ -101,11 +101,11 @@ Site
 
 ***ESP:***
 
-Este repositorio proporciona una representación pública y filtrada del conocimiento almacenado en `knowledge`.
+Este repositorio proporciona una representación pública y filtrada del conocimiento almacenado en el repositorio privado.
 
 ***ENG:***
 
-This repository provides a filtered public representation of the knowledge stored in `knowledge`.
+This repository provides a filtered public representation of the knowledge stored in the private repository.
 
 ---
 ---
